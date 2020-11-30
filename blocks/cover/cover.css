@@ -1,7 +1,7 @@
 .cover {
   display: flex;
   justify-content: center;
-  flex-direction: column; 
+  flex-direction: column;
   max-width: 100%;
   margin: 92px 48px;
   margin-top: 12px;
@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 425px) {
   .cover { 
-    margin-top: 16x;
+    margin-top: 16px;
     height: 200px;
     margin-bottom: 64px;
   }
