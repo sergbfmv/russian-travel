@@ -1,0 +1,18 @@
+.place__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc((100% - 40px) / 2);
+}
+
+@media screen and (max-width: 768px) {
+  .place__column {
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .place__column {
+    width: 100%;;
+  }
+}
