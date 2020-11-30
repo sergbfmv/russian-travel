@@ -3,10 +3,9 @@
   max-width: 640px;
   width: 100%;
   font-family: "Inter";
-  font-style: normal;
   line-height: 36px;
   font-size: 30px;
-  font-weight: normal;
+  font-weight: 200;
   text-align: center;
   color: white;
 }
