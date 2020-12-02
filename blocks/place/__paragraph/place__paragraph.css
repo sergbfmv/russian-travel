@@ -6,7 +6,7 @@
   margin: 0 auto;
 }
 
-.place__paragraph:nth-child(2n) {
+.place__paragraph:nth-last-child(n+2) {
   margin-bottom: 26px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .place__paragraph:nth-child(2) {
+  .place__paragraph:nth-last-child(n+2) {
     margin-top: 25px;
   }
 }
@@ -26,7 +26,7 @@
   .place__paragraph {
     margin: 0 16px;
   }
-  .place__paragraph:nth-child(2n) {
+  .place__paragraph:nth-last-child(n+2) {
     margin-bottom: 32px;
   }
 }

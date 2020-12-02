@@ -1,14 +1,11 @@
 .header__lang-link {
   color: white;
   text-decoration: none;
-  width: 29px;
-  height: 28px;
   padding-left: 18px;
+  opacity: 1;
+  transition: opacity 0.2s linear;
 }
 
-@media screen and (max-width: 425px) {
-  .header__lang-link {
-    width: 22px;
-    height: 20px;
-  }
+.header__lang-link:hover {
+  opacity: 0.8;
 }
