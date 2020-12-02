@@ -1,0 +1,9 @@
+.footer__link_spacing {
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__link_spacing {
+    padding-bottom: 32px;
+  }
+}
