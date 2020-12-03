@@ -2,7 +2,7 @@
   margin: 32px 0 64px;
   max-width: 640px;
   width: 100%;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   line-height: 36px;
   font-size: 30px;
   font-weight: 200;
